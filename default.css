@@ -282,6 +282,19 @@ h6 {
     left: -5px;
 }
 
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow); 
+}
+
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding: auto;
+}  
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;
@@ -301,4 +314,4 @@ h6 {
     .right-colomn{
         justify-content: center;
     }
-}6
+}
